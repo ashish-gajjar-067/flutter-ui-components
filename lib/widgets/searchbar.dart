@@ -14,7 +14,14 @@ class SearchBar extends StatelessWidget {
           enabledBorder: OutlineInputBorder(
             borderRadius: BorderRadius.circular(40),
             borderSide: const BorderSide(
-                width: 1, color: Color.fromARGB(200, 200, 200, 200)),
+              width: 1,
+              color: Color.fromARGB(
+                200,
+                200,
+                200,
+                200,
+              ),
+            ),
           ),
         ),
       ),
